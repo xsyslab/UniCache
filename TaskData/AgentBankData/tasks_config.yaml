@@ -1,0 +1,10 @@
+tasks:
+  - name: AgentBank_app
+    task_id: 1
+    data_path: ./TaskData/AgentBankData/AgentBank_apps_session_data.jsonl
+    lambda_rate: 1
+    mu: 1.81  
+    sigma: 1.092
+    max_trace_duration: -1
+    seed: 42
+    max_record: 4408

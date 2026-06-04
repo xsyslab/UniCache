@@ -1,0 +1,107 @@
+{
+  "Llama-3.2-1B-Instruct": {
+    "AgentBank_alfred": {
+      "system prompt": {
+        "text": "<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 13 Sep 2025\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "token ids": [
+          128000, 128000, 128006, 9125, 128007, 271, 38766, 1303, 33025, 2696,
+          25, 6790, 220, 2366, 18, 198, 15724, 2696, 25, 220, 1032, 17907, 220,
+          2366, 20, 271, 128009, 128006, 882, 128007, 271
+        ]
+      }
+    },
+    "AgentBank_apps": {
+      "system prompt": {
+        "text": "<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 13 Sep 2025\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "token ids": [
+          128000, 128000, 128006, 9125, 128007, 271, 38766, 1303, 33025, 2696,
+          25, 6790, 220, 2366, 18, 198, 15724, 2696, 25, 220, 1032, 17907, 220,
+          2366, 20, 271, 128009, 128006, 882, 128007, 271
+        ]
+      }
+    },
+    "AgentBank_mind2web": {
+      "system prompt": {
+        "text": "<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 13 Sep 2025\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "token ids": [
+          128000, 128000, 128006, 9125, 128007, 271, 38766, 1303, 33025, 2696,
+          25, 6790, 220, 2366, 18, 198, 15724, 2696, 25, 220, 1032, 17907, 220,
+          2366, 20, 271, 128009, 128006, 882, 128007, 271
+        ]
+      }
+    },
+    "ShareGPT-multi-turn": {
+      "system prompt": {
+        "text": "<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 13 Sep 2025\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "token ids": [
+          128000, 128000, 128006, 9125, 128007, 271, 38766, 1303, 33025, 2696,
+          25, 6790, 220, 2366, 18, 198, 15724, 2696, 25, 220, 1032, 17907, 220,
+          2366, 20, 271, 128009, 128006, 882, 128007, 271
+        ]
+      }
+    },
+    "ToolBench": {
+      "system prompt": {
+        "text": "<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 13 Sep 2025\n\nSystem: You are AutoGPT, you can use many tools(functions) to do the following task.\nFirst I will give you the task description, and your task start.\nAt each step, you need to give your thought to analyze the status now and what to do next, with a function call to actually excute your step.\nAfter the call, you will get the call result, and you are now in a new state.\nThen you will analyze your status now, then decide what to do next...\nAfter many (Thought-call) pairs, you finally perform the task, then you can give your finial answer.\nRemember: \n1.the state change is irreversible, you can't go back to one of the former state, if you want to restart the task, say \"I give up and restart\".\n2.All the thought is short, at most in 5 sentence.\n3.You can do more then one trys, so if your plan is to continusly try some conditions, you can do one of the conditions per try.\nLet's Begin!\nTask description: You should use functions to help handle the real time user querys. Remember:\n1.ALWAYS call \"Finish\" function at the end of the task. And the final answer should contain enough information to show to the user,If you can't handle the task, or you find that function calls always fail(the function is not valid now), use function Finish->give_up_and_restart.\n2.Do not use origin tool names, use only subfunctions' names.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "token ids": [
+          128000, 128000, 128006, 9125, 128007, 271, 38766, 1303, 33025, 2696,
+          25, 6790, 220, 2366, 18, 198, 15724, 2696, 25, 220, 1032, 17907, 220,
+          2366, 20, 271, 2374, 25, 1472, 527, 9156, 38, 2898, 11, 499, 649,
+          1005, 1690, 7526, 2993, 82, 8, 311, 656, 279, 2768, 3465, 627, 5451,
+          358, 690, 3041, 499, 279, 3465, 4096, 11, 323, 701, 3465, 1212, 627,
+          1688, 1855, 3094, 11, 499, 1205, 311, 3041, 701, 3463, 311, 24564,
+          279, 2704, 1457, 323, 1148, 311, 656, 1828, 11, 449, 264, 734, 1650,
+          311, 3604, 3521, 1088, 701, 3094, 627, 6153, 279, 1650, 11, 499, 690,
+          636, 279, 1650, 1121, 11, 323, 499, 527, 1457, 304, 264, 502, 1614,
+          627, 12487, 499, 690, 24564, 701, 2704, 1457, 11, 1243, 10491, 1148,
+          311, 656, 1828, 9522, 6153, 1690, 320, 85269, 59997, 8, 13840, 11,
+          499, 5616, 2804, 279, 3465, 11, 1243, 499, 649, 3041, 701, 1913, 532,
+          4320, 627, 29690, 25, 720, 16, 42901, 1614, 2349, 374, 93294, 11, 499,
+          649, 956, 733, 1203, 311, 832, 315, 279, 4846, 1614, 11, 422, 499,
+          1390, 311, 17460, 279, 3465, 11, 2019, 330, 40, 3041, 709, 323, 17460,
+          23811, 17, 17182, 279, 3463, 374, 2875, 11, 520, 1455, 304, 220, 20,
+          11914, 627, 18, 39537, 649, 656, 810, 1243, 832, 490, 1065, 11, 779,
+          422, 701, 3197, 374, 311, 2018, 355, 398, 1456, 1063, 4787, 11, 499,
+          649, 656, 832, 315, 279, 4787, 824, 1456, 627, 10267, 596, 19110,
+          4999, 6396, 4096, 25, 1472, 1288, 1005, 5865, 311, 1520, 3790, 279,
+          1972, 892, 1217, 3319, 82, 13, 20474, 512, 16, 42163, 37641, 1650,
+          330, 26748, 1, 734, 520, 279, 842, 315, 279, 3465, 13, 1628, 279,
+          1620, 4320, 1288, 6782, 3403, 2038, 311, 1501, 311, 279, 1217, 11,
+          2746, 499, 649, 956, 3790, 279, 3465, 11, 477, 499, 1505, 430, 734,
+          6880, 2744, 3775, 31524, 734, 374, 539, 2764, 1457, 705, 1005, 734,
+          36633, 405, 47530, 8401, 8543, 70492, 627, 17, 34696, 539, 1005, 6371,
+          5507, 5144, 11, 1005, 1193, 1207, 22124, 6, 5144, 13, 128009, 128006,
+          882, 128007, 271
+        ]
+      },
+      "prefill shared part": {
+        "prefix": [2675, 617, 2680, 315, 279, 2768, 7526, 512, 16],
+        "suffix": [1502, 25]
+      }
+    },
+    "CodeParrot": {
+      "system prompt": {
+        "text": "<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 13 Sep 2025\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nQuestion:",
+        "token ids": [
+          128000, 128000, 128006, 9125, 128007, 271, 38766, 1303, 33025, 2696,
+          25, 6790, 220, 2366, 18, 198, 15724, 2696, 25, 220, 1032, 17907, 220,
+          2366, 20, 271, 128009, 128006, 882, 128007, 271, 14924, 25
+        ]
+      }
+    },
+    "QA": {
+      "system prompt": {
+        "text": "<|begin_of_text|><|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 13 Sep 2025\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n",
+        "token ids": [
+          128000, 128000, 128006, 9125, 128007, 271, 38766, 1303, 33025, 2696,
+          25, 6790, 220, 2366, 18, 198, 15724, 2696, 25, 220, 1032, 17907, 220,
+          2366, 20, 271, 128009, 128006, 882, 128007, 271
+        ]
+      },
+      "prefill shared part": {
+        "prefix": [5618, 4320, 279, 3488, 3196, 389, 279, 22755, 3770, 627],
+        "suffix": [14924, 25]
+      }
+    }
+  }
+}

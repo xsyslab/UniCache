@@ -1,0 +1,31 @@
+# tasks:
+#   - name: TEXT
+#     task_id: 1
+#     data_path: /root/nfs/codespace/PrefixCacheRepo/PrefixCacheDev/TaskData/QwenTrace/text_converted.jsonl
+#     lambda_rate: 1
+#     mu: 1.81  
+#     sigma: 1.092
+#     max_trace_duration: -1
+#     seed: 42
+#     max_record: 5
+# tasks:
+
+tasks:
+  - name: AgentBank_apps
+    task_id: 0
+    data_path: TaskData/AgentBankData/AgentBank_apps_session_data.jsonl
+    lambda_rate: 2
+    mu: 0
+    sigma: 0
+    max_trace_duration: -1
+    seed: 42
+    max_record: 100
+  - name: ShareGPT
+    task_id: 1
+    data_path: TaskData/SharedGPT-multi-turn/ShareGPT_cleaned_valid_deduplicated_session_data.jsonl
+    lambda_rate: 1
+    mu: 4.15
+    sigma: 0.971
+    max_trace_duration: -1
+    seed: 42
+    max_record: 10

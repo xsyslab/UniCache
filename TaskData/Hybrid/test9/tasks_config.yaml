@@ -1,0 +1,60 @@
+tasks:
+  - name: AgentBank_apps
+    task_id: 0
+    data_path: TaskData/AgentBankData/AgentBank_apps_session_data.jsonl
+    lambda_rate: 20
+    mu: 0
+    sigma: 0
+    max_trace_duration: -1
+    seed: 42
+    max_record: 1800
+
+  - name: Codeparrot
+    task_id: 1
+    data_path: TaskData/Codeparrot/Code_session_data.jsonl
+    lambda_rate: 20
+    mu: 0
+    sigma: 0
+    max_trace_duration: -1
+    seed: 42
+    max_record: 1800
+
+  - name: mashqa
+    task_id: 2
+    data_path: TaskData/mashqa_data/mashqa_session_data.jsonl
+    lambda_rate: 20
+    mu: 0
+    sigma: 0
+    max_trace_duration: -1
+    seed: 42
+    max_record: 1800
+
+  - name: ToolBench
+    task_id: 3
+    data_path: TaskData/ToolBench/ToolBench_session_data.jsonl
+    lambda_rate: 20
+    mu: 0
+    sigma: 0
+    max_trace_duration: -1
+    seed: 42
+    max_record: 1800
+
+  - name: AgentBank_alfred
+    task_id: 4
+    data_path: TaskData/AgentBankData/AgentBank_alfred_scale_5000_session_data.jsonl
+    lambda_rate: 1
+    mu: 1.81
+    sigma: 1.092
+    max_trace_duration: -1
+    seed: 42
+    max_record: 500
+
+  - name: ShareGPT
+    task_id: 5
+    data_path: TaskData/SharedGPT-multi-turn/ShareGPT_cleaned_valid_deduplicated_session_data.jsonl
+    lambda_rate: 1
+    mu: 4.15
+    sigma: 0.971
+    max_trace_duration: -1
+    seed: 42
+    max_record: 500

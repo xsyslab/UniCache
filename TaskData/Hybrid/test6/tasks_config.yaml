@@ -1,0 +1,20 @@
+tasks:
+  - name: AgentBank_alfred
+    task_id: 0
+    data_path: TaskData/AgentBankData/AgentBank_alfred_scale_5000_session_data.jsonl
+    lambda_rate: 1
+    mu: 1.81
+    sigma: 1.092
+    max_trace_duration: -1
+    seed: 42
+    max_record: 500
+
+  - name: ShareGPT
+    task_id: 1
+    data_path: TaskData/SharedGPT-multi-turn/ShareGPT_cleaned_valid_deduplicated_session_data.jsonl
+    lambda_rate: 10
+    mu: 4.15
+    sigma: 0.971
+    max_trace_duration: -1
+    seed: 42
+    max_record: 5000
